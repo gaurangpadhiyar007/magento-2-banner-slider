@@ -25,7 +25,7 @@ $sliderOptions = $block->getBannerOptions();
 
 if (count($banners)): ?>
     <div class="carousel-container">
-        <div id="banner-slider-carousel">
+        <div id="banner-slider-carousel-<?php echo $sliderId; ?>">
             <?php $iterator = 1; ?>
             <div id="bannerslider-list-items-<?php echo $sliderId; ?>"
                  class="owl-carousel owl-theme">
